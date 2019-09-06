@@ -6,9 +6,9 @@ function produceDrivingRange(blockRange) {
     let result = endNumber - (startNumber * 1 + blockRange);
     
     if(result >= 0) {
-      console.log(`within range by ${result}`);
+      return (`within range by ${result}`);
     }else {
-      console.log(`${-1 * result} blocks out of range`);
+      return (`${-1 * result} blocks out of range`);
     }
   }
 }
