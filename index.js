@@ -6,7 +6,7 @@ function produceDrivingRange(blockRange) {
     let result = endNumber - (startNumber * 1 + blockRange);
     
     if(result < 0) {
-      return (`within range by ${result}`);
+      return (`within range by ${-1 * result}`);
     }else {
       return (`${result} blocks out of range`);
     }
