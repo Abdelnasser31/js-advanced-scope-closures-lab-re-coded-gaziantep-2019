@@ -18,3 +18,12 @@ function produceTipCalculator(tipPercentage) {
     return price * tipPercentage;
   }
 }
+
+function createDriver() {
+  let driverId = 0;
+  return class Driver {
+    constructor() {
+      
+    }
+  }
+}
