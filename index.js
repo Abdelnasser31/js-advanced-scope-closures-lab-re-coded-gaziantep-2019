@@ -8,7 +8,7 @@ function produceDrivingRange(blockRange) {
     if(result >= 0) {
       console.log(`within range by ${result}`);
     }else {
-      console.log(`${-result} blocks out of range`);
+      console.log(`${-1 result} blocks out of range`);
     }
   }
 }
